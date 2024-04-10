@@ -30,7 +30,6 @@ function Copyright(props) {
 
 const theme = createTheme();
 
-
 export default function Login() {
 
   const[notify,setnotify] = useState({isOpen:false,message:'',type:''})
