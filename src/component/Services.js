@@ -85,7 +85,7 @@ function Services(props) {
     e.preventDefault();
     const data = new FormData(e.currentTarget);
     try{
-      var response = await axios.post("https://carsevice-backend.onrender.com/general/enquiry",{
+      var response = await axios.post("https://bikeservice-backend-k4l8.onrender.com/general/enquiry",{
         carregno:data.get("carregno"),
         carregyr:data.get("carregyr"),
         odo:data.get("odo"),
@@ -110,7 +110,7 @@ function Services(props) {
     const data = new FormData(e.currentTarget);
 
     try{
-      var response = await axios.post("https://carsevice-backend.onrender.com/general/service",{
+      var response = await axios.post("https://bikeservice-backend-k4l8.onrender.com/general/service",{
         carregno:data.get("carregno"),
         carregyr:data.get("carregyr"),
         odo:data.get("odo"),

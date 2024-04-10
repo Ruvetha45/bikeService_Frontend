@@ -35,7 +35,7 @@ function Adminpage() {
     var batdata = []
 
     useEffect(async()=>{
-        var response = await axios.get("https://carsevice-backend.onrender.com/client/data");
+        var response = await axios.get("https://bikeservice-backend-k4l8.onrender.com/client/data");
         setuser(response.data); 
         
     },[])

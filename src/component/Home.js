@@ -125,7 +125,7 @@ const makePayment = token=>{
   const headers = {
     "Content-Type":"application/json"
   }
-  return fetch(`https://carsevice-backend.onrender.com/payment`,{
+  return fetch(`https://bikeservice-backend-k4l8.onrender.com/payment`,{
     method:"POST",
     headers,
     body:JSON.stringify(body)

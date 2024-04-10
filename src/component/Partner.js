@@ -49,7 +49,7 @@ function Partner(props) {
     e.preventDefault();
     const data = new FormData(e.currentTarget);
     try{
-      var response = await axios.post("https://carsevice-backend.onrender.com/onboard/enquiry",{
+      var response = await axios.post("https://bikeservice-backend-k4l8.onrender.com/onboard/enquiry",{
         name:data.get("name"),
         mobileno:data.get("mobileno"),
         address:data.get("address")

@@ -74,7 +74,7 @@ function Battery({name}) {
     event.preventDefault();
     const data = new FormData(event.currentTarget);
     try{
-      var response = await axios.post("https://carsevice-backend.onrender.com/battery/enquiry",{
+      var response = await axios.post("https://bikeservice-backend-k4l8.onrender.com/battery/enquiry",{
         carmodel:data.get("carmodel"),
         email:data.get("email"),
         mobileno:data.get("mobileno"),

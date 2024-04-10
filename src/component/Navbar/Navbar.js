@@ -16,7 +16,7 @@ function Navbar(props) {
 var email = localStorage.getItem("email")
 const {name,setname}=props
   useEffect(async()=>{
-var response = await axios.get("https://carsevice-backend.onrender.com/client/data");
+var response = await axios.get("https://bikeservice-backend-k4l8.onrender.com/client/data");
 response.data.filter(user=>{
   if(user.email == email){
     setname(user.name)
